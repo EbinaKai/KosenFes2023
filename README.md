@@ -19,7 +19,7 @@
 ## 使い方
 
 1. Dockerで環境を構築する  
-  `docker-compose -d`
+  `docker-compose up -d`
 
 2. WordPressの各種設定をする
 3. 固定ページを追加する  
