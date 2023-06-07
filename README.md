@@ -4,13 +4,13 @@
 
 | ページ | 説明 |
 | -- | -- |
-| index.html | トップページ |
-| greeting.html | 校長と高専祭実行委員長からの挨拶 |
-| shops.html | 出店一覧 |
-| events.html | 企画一覧 |
-| access.html | アクセス情報 |
-| qa.html | よくある質問とその回答集 |
-| news.html | ニュース記事一覧 |
+| / | トップページ |
+| /greeting | 校長と高専祭実行委員長からの挨拶 |
+| /shops | 出店一覧 |
+| /events | 企画一覧 |
+| /access | アクセス情報 |
+| /qa | よくある質問とその回答集 |
+| /news | ニュース記事一覧 |
 
 ## 説明
 
