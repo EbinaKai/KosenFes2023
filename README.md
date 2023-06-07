@@ -18,7 +18,7 @@
 
 ## 使い方
 
-1. ドッカーで環境を構築する  
+1. Dockerで環境を構築する  
   `docker compose -d`
 
 2. WordPressの各種設定をする
