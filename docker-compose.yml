@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  mysql:
+    platform: linux/x86_64 # M1 Mac対応
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE} # DB名
+      MYSQL_USER: ${MYSQL_USER} # DBユーザー名
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD} # DBパスワード
+
+  wordpress:
+    depends_on:
+      - mysql
+    image: wordpress:latest
+    volumes:
+      - ./wp:/var/www/html
+    ports:
+      - "8000:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: mysql:3306
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE} # DB名
+      WORDPRESS_DB_USER: ${MYSQL_USER} # DBユーザー名
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD} # DBパスワード
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      - PMA_HOST=mysql
+      - PMA_USER=root
+      - PMA_PASSWORD=${MYSQL_PASSWORD}
+    volumes:
+      - ./phpmyadmin/phpmyadmin-misc.ini:/usr/local/etc/php/conf.d/phpmyadmin-misc.ini
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - 8888:80
+
+volumes:
+  db_data:
