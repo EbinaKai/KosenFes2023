@@ -103,6 +103,14 @@ footer nav ul li a {
 }
 /* end footer */
 
+main ul, main ol {
+  padding-left: 40px;
+}
+
+main p {
+  margin-top: 20px;
+}
+
 .img-box {
   display: flex;
   justify-content: center;
