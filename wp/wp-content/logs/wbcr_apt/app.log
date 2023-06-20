@@ -29,3 +29,15 @@
 07-06-2023 21:54:22 [localhost][warning] The post (71) has already been assigned a featured image
 07-06-2023 21:54:22 [localhost][warning] The post (71) has already been assigned a featured image
 -------------------------------
+20-06-2023 12:34:08 [localhost][debug] Found images: array (
+)
+-------------------------------
+20-06-2023 12:34:35 [localhost][debug] Found images: array (
+)
+20-06-2023 12:34:35 [localhost][debug] Found images: array (
+)
+20-06-2023 12:34:35 [localhost][warning] The post (77) has already been assigned a featured image
+-------------------------------
+20-06-2023 12:34:35 [localhost][warning] The post (77) has already been assigned a featured image
+20-06-2023 12:34:35 [localhost][warning] The post (77) has already been assigned a featured image
+-------------------------------

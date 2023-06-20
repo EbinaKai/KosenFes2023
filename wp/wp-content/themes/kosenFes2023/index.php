@@ -7,47 +7,89 @@
 </section>
 
 <section class="container mb-3">
-  <h2>ここにタイトルを挿れる</h2>
-  <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20924.891391726243!2d140.75542647995692!3d38.276271542080075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a2beee3b9f50b%3A0x5b2959add5f6f104!2z5LuZ5Y-w6auY562J5bCC6ZaA5a2m5qChIOW6g-eArOOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1685865662738!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <h2>ニュース</h2>
+  <div class="ml-4">
+    <ul class="list-unstyled news-list">
+    <?php
+    // WP_Queryオブジェクトを生成
+    $query = new WP_Query([
+      'post_type' => 'post', // 投稿記事のみを対象とする
+      'posts_per_page' => 3, // ページあたりの表示数（適宜変更）
+    ]);
+
+    // ループ開始
+    if ($query->have_posts()):
+      while ($query->have_posts()): $query->the_post();
+    ?>
+      <a href="<?php the_permalink(); ?>">
+        <li>
+          <?php the_time('m.d'); ?>
+          <?php the_title(); ?>
+        </li>
+      </a>
+    <?php
+      endwhile; // ループの終わり
+      wp_reset_postdata(); // メインクエリをリセット
+    else:
+      echo '<p>記事が見つかりませんでした。</p>';
+    endif;
+    ?>
+    </ul>
   </div>
+</section>
+
+<section class="container mb-3">
+  <h2>校長挨拶</h2>
+  <div>挨拶の一部分</div>
+  <a href="/greeting"><button class="btn btn-fes btn-block mt-3">続きはこちら</button></a>
+</section>
+
+<section class="container mb-3">
+  <h2>イベント一覧</h2>
+  <a href="/events"><button class="btn btn-fes btn-block my-4">詳しくはこちら</button></a>
+  <dl class="mb-4 item-list">
+    <dt>イベント</dt>
+    <dd>
+      <time>一日目 10:00〜12:00</time>
+      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+    </dd>
+  </dl>
+  <dl class="mb-4 item-list">
+    <dt>イベント</dt>
+    <dd>
+      <time>一日目 10:00〜12:00</time>
+      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+    </dd>
+  </dl>
+  <dl class="mb-4 item-list">
+    <dt>イベント</dt>
+    <dd>
+      <time>一日目 10:00〜12:00</time>
+      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+    </dd>
+  </dl>
+  <dl class="mb-4 item-list">
+    <dt>イベント</dt>
+    <dd>
+      <time>一日目 10:00〜12:00</time>
+      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+    </dd>
+  </dl>
+</section>
+
+<section class="container mb-3">
+  <h2>出店店舗</h2>
+  <div>ランダムで3つくらいここに表示</div>
+</section>
+
+<section class="container mb-3">
+  <h2>アクセス</h2>
   <dl class="mt-2">
     <dt>公共交通機関</dt>
     <dd>JR仙山線 愛子駅より徒歩15分</dd>
     <dd>仙台市営バス 仙台高専広瀬キャンパス入口より徒歩5分</dd>
   </dl>
-</section>
-
-<section class="container mb-3">
-  <h2>ここにタイトルを挿れる</h2>
-  <dl class="mb-4 item-list">
-    <dt>イベント</dt>
-    <dd>
-      <time>一日目 10:00〜12:00</time>
-      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
-    </dd>
-  </dl>
-  <dl class="mb-4 item-list">
-    <dt>イベント</dt>
-    <dd>
-      <time>一日目 10:00〜12:00</time>
-      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
-    </dd>
-  </dl>
-  <dl class="mb-4 item-list">
-    <dt>イベント</dt>
-    <dd>
-      <time>一日目 10:00〜12:00</time>
-      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
-    </dd>
-  </dl>
-  <dl class="mb-4 item-list">
-    <dt>イベント</dt>
-    <dd>
-      <time>一日目 10:00〜12:00</time>
-      <p class="mt-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
-    </dd>
-  </dl>
+  <a href="/access"><button class="btn btn-fes btn-block mt-3">詳しくはこちら</button></a>
 </section>
 
 <?php get_footer(); ?>
