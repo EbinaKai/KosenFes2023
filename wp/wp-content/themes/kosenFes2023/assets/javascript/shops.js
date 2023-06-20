@@ -15,10 +15,10 @@ $(document).ready(function() {
   function drawShops(shops) {
     shops.forEach(function(shop) {
       let shop_html = `
-        <div class="col-md-4 col-sm-12">
-          <div class="img-box">
-            <img class="thumbnail" src="${image_path}${shop.image}" alt="${shop.name}" data-toggle="modal" data-target="#myModal" data-shop-id="${shop.id}">
-          </div>
+        <div class="col-md-4 col-sm-12 mb-4">
+          <img class="thumbnail img-thumbnail" src="${image_path}${shop.image}" alt="${shop.name}" data-toggle="modal" data-target="#myModal" data-shop-id="${shop.id}">
+          <h5 class="mt-2">${shop.name}</h5>
+          <ul></ul>
         </div>
       `;
       let $shop_element = $($.parseHTML(shop_html));

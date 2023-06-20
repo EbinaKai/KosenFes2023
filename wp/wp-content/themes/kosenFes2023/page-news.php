@@ -9,7 +9,8 @@
     // WP_Queryオブジェクトを生成
     $query = new WP_Query([
       'post_type' => 'post', // 投稿記事のみを対象とする
-      'posts_per_page' => 10, // ページあたりの表示数（適宜変更）
+      'category_name'  => 'news',  // 'news' カテゴリーの投稿のみを対象とする
+      'posts_per_page' => 100, // ページあたりの表示数（適宜変更）
     ]);
 
     // ループ開始
