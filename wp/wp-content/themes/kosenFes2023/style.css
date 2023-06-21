@@ -105,6 +105,10 @@ header nav ul li a:hover {
   border-top: 4px solid #AA240A;
   border-bottom: 4px solid #AA240A;
 }
+nav ul li.current-menu-item a { 
+  border-top: 4px solid #DB933F;
+  border-bottom: 4px solid #DB933F;
+}
 /* end header */
 
 /* footer */

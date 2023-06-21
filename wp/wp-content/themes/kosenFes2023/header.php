@@ -38,15 +38,15 @@
         <input type="checkbox" id="overlay-input" />
         <label for="overlay-input" id="overlay-button"><span></span></label>
         <nav id="overlay">
-          <ul class="mb-0">
-            <li><a href="<?php bloginfo('url'); ?>/">ホーム</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/greeting">ご挨拶</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/shops">出店一覧</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/events">企画一覧</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/access">アクセス</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/news">ニュース</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/qa">Q&A</a></li>
-          </ul>
+        <ul class="mb-0">
+          <li <?php if (is_home()) echo ' class="current-menu-item"'; ?>><a href="<?php bloginfo('url'); ?>/">ホーム</a></li>
+          <li <?php if (is_page('greeting')) echo ' class="current-menu-item"'; ?>><a href="<?php bloginfo('url'); ?>/greeting">ご挨拶</a></li>
+          <li <?php if (is_page('shops')) echo ' class="current-menu-item"'; ?>><a href="<?php bloginfo('url'); ?>/shops">出店一覧</a></li>
+          <li <?php if (is_page('events')) echo ' class="current-menu-item"'; ?>><a href="<?php bloginfo('url'); ?>/events">企画一覧</a></li>
+          <li <?php if (is_page('access')) echo ' class="current-menu-item"'; ?>><a href="<?php bloginfo('url'); ?>/access">アクセス</a></li>
+          <li <?php if (is_page('news')) echo ' class="current-menu-item"'; ?>><a href="<?php bloginfo('url'); ?>/news">ニュース</a></li>
+          <li <?php if (is_page('qa')) echo ' class="current-menu-item"'; ?>><a href="<?php bloginfo('url'); ?>/qa">Q&A</a></li>
+        </ul>
         </nav>
       </div>
     </header>
