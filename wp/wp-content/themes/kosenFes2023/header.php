@@ -28,21 +28,27 @@
 </head>
 <body>
   <div id="wrapper">
-    <header class="d-flex align-items-center justify-content-between sticky-top">
-      <h1><a href="<?php bloginfo("url") ?>/">高専祭2023</a></h1>
-      <input type="checkbox" id="overlay-input" />
-      <label for="overlay-input" id="overlay-button"><span></span></label>
-      <nav id="overlay">
-        <ul class="mb-0">
-          <li><a href="<?php bloginfo('url'); ?>/">ホーム</a></li>
-          <li><a href="<?php bloginfo('url'); ?>/greeting">ご挨拶</a></li>
-          <li><a href="<?php bloginfo('url'); ?>/shops">出店一覧</a></li>
-          <li><a href="<?php bloginfo('url'); ?>/events">企画一覧</a></li>
-          <li><a href="<?php bloginfo('url'); ?>/access">アクセス</a></li>
-          <li><a href="<?php bloginfo('url'); ?>/news">ニュース</a></li>
-          <li><a href="<?php bloginfo('url'); ?>/qa">Q&A</a></li>
-        </ul>
-      </nav>
+    <header class="sticky-top">
+      <div class="header-inner d-flex align-items-center justify-content-between">
+        <h1>
+          <a class="header-logo" href="<?php echo esc_url(home_url('/')); ?>">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo.png" alt="宴">
+          </a>
+        </h1>
+        <input type="checkbox" id="overlay-input" />
+        <label for="overlay-input" id="overlay-button"><span></span></label>
+        <nav id="overlay">
+          <ul class="mb-0">
+            <li><a href="<?php bloginfo('url'); ?>/">ホーム</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/greeting">ご挨拶</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/shops">出店一覧</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/events">企画一覧</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/access">アクセス</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/news">ニュース</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/qa">Q&A</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     
     <main>

@@ -76,15 +76,24 @@ nav ul li a:hover {
 
 /* header */
 header {
-  width: 100%;
-  height: 80px;
   padding: 0 20px;
   background-image: linear-gradient(180deg, rgba(214, 201, 191, 1) 90%, rgba(214, 201, 191, 0));
 }
-header h1 {
-  color: #AA240A;
-  font-family: 'Dela Gothic One', cursive;
-  font-size: 4rem;
+
+header .header-inner {
+  height: 85px;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+header h1 .header-logo {
+  display: inline-block;
+  height: 70px;
+}
+
+header h1 .header-logo img {
+  height: 100%;
 }
 header nav ul li a {
   font-weight: bold;
@@ -186,6 +195,7 @@ main p {
 
 .news-list li {
   margin: 10px 0;
+  text-decoration: underline;
 }
 .news-list li:hover {
   color: #AA240A;
@@ -266,10 +276,11 @@ main p {
   html {
     font-size: 14px;
   }
-  
-  header h1 {
-    font-size: 2.5rem;
+
+  header h1 .header-logo {
+    height: 65px;
   }
+  
 
   nav ul li {
     display: block;
@@ -313,4 +324,10 @@ main p {
     color: #AA240A;
   }
 
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    min-height: 0;
+  }
 }
