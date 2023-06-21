@@ -22,8 +22,22 @@
   `docker-compose up -d`
 
 2. WordPressの各種設定をする
-3. 固定ページを追加する  
+3. 固定ページを上記のページ構成通りのスラッグを設定して追加する  
 4. その他、好きなプラグインをインストールする
 
-- Auto Featured Image (Auto Post Thumbnail)
-- Imsanity
+   - Auto Featured Image (Auto Post Thumbnail)
+   - Imsanity
+   - Advanced Custom Fields
+
+5. 店舗情報をカスタム投稿タイプを作成して登録する。カスタム投稿タイプのフィールドは以下の通りとする
+  
+| ラベル | 名前 | タイプ | その他 |
+| -- | -- | -- | -- |
+| 店舗説明 | description | テキスト | |
+| サムネイル | thumbnail | 画像 | |
+| 出店場所 | location | テキスト | |
+| 屋内・屋外 | venue_type | ラジオボタン | 選択肢：屋内, 屋外 |
+| ジャンル | genre | チェックボックス | 選択肢：イベント, 飲食店, ゲーム, その他 |
+
+店舗情報を投稿する際には、投稿のカテゴリーのスラッグを `shops` にする。  
+また、ニュース記事を投稿する際には、投稿のカテゴリーのスラッグをを `news` にする。
