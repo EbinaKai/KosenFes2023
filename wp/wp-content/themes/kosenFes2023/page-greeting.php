@@ -2,6 +2,7 @@
 
 <section class="container mb-3">
   <h2>校長からの挨拶</h2>
+  <h3>高専校長</h3>
   <div class="row">
     <div class="col-lg-4">
       <div class="img-box">
@@ -16,6 +17,7 @@
 
 <section class="container mb-3">
   <h2>実行委員長からの挨拶</h2>
+  <h3>高専太郎</h3>
   <div class="row">
     <div class="col-lg-4">
       <div class="img-box">
