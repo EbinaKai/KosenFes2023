@@ -9,7 +9,7 @@
 <section class="container mb-3">
   <h2>ニュース</h2>
   <div class="ml-4">
-    <ul class="list-unstyled news-list">
+    <ul class="list-unstyled link-list">
     <?php
     // WP_Queryオブジェクトを生成
     $query = new WP_Query([
@@ -22,12 +22,12 @@
     if ($query->have_posts()):
       while ($query->have_posts()): $query->the_post();
     ?>
-      <a href="<?php the_permalink(); ?>">
-        <li>
+      <li>
+        <a href="<?php the_permalink(); ?>">
           <?php the_time('m.d'); ?>
           <?php the_title(); ?>
-        </li>
-      </a>
+        </a>
+      </li>
     <?php
       endwhile; // ループの終わり
       wp_reset_postdata(); // メインクエリをリセット

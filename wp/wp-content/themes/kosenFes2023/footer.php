@@ -11,6 +11,8 @@
           <li><a href="<?php bloginfo("url") ?>/access">アクセス</a></li>
           <li><a href="<?php bloginfo("url") ?>/news">ニュース</a></li>
           <li><a href="<?php bloginfo("url") ?>/qa">Q&A</a></li>
+          <li><a href="<?php bloginfo("url") ?>/privacy-policy">プライバシーポリシー</a></li>
+          <li><a href="<?php bloginfo("url") ?>/sitemap">サイトマップ</a></li>
         </ul>
       </nav>
       <p class="text-center">© Ebina Kai</p>

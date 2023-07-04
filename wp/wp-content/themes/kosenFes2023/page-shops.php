@@ -15,26 +15,28 @@
     if ($query->have_posts()):
       while ($query->have_posts()): $query->the_post();
     ?>
-      <div class="col-6 col-md-4 p-1 position-relative bg-white rounded" data-toggle="modal" data-target="#shopModal-<?php echo get_the_ID(); ?>">
-        <img 
-          class="thumbnail img-thumbnail border-0 p-0" 
-          src="<?php the_field('thumbnail'); ?>" 
-          alt="<?php the_title(); ?>" >
-        
-        <ul class="genre-label list-unstyled py-1 mb-0" style="top: 0; left: 0;">
-          <?php 
-          // チェックボックス型のカスタムフィールドからジャンル情報を取得
-          $genres = get_field('genre'); 
-          if ($genres):
-            foreach($genres as $genre):
-          ?>
-          <li><?php echo $genre; ?></li>
-          <?php
-            endforeach; 
-          endif;
-          ?>
-        </ul>
-        <h5 class="text-center"><?php the_title(); ?></h5>
+      <div class="col-6 col-md-4 p-1">
+        <div class="bg-white rounded p-1 h-100" data-toggle="modal" data-target="#shopModal-<?php echo get_the_ID(); ?>">
+          <img 
+            class="thumbnail img-thumbnail border-0 p-0" 
+            src="<?php the_field('thumbnail'); ?>" 
+            alt="<?php the_title(); ?>" >
+          
+          <ul class="genre-label list-unstyled py-1 mb-0" style="top: 0; left: 0;">
+            <?php 
+            // チェックボックス型のカスタムフィールドからジャンル情報を取得
+            $genres = get_field('genre'); 
+            if ($genres):
+              foreach($genres as $genre):
+            ?>
+            <li><?php echo $genre; ?></li>
+            <?php
+              endforeach; 
+            endif;
+            ?>
+          </ul>
+          <h5 class="text-center"><?php the_title(); ?></h5>
+        </div>
       </div>
 
       <!-- modal window -->
@@ -64,8 +66,9 @@
     endif;
     ?>
   </div>
-
-  
+</section>
+<section class="container mb-3">
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tw-DZQQspFaTY3sEtZsj0aYLDj6R5j8&ehbc=2E312F" width="100%" height="480"></iframe>
 </section>
 
 <?php get_footer(); ?>
