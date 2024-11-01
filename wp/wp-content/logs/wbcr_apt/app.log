@@ -1,0 +1,210 @@
+
+07-06-2023 21:44:05 [localhost][debug] Found images: array (
+  0 => 
+  array (
+    'tag' => '<img src="http://localhost:8000/wp-content/uploads/2023/06/shop_sample.png" alt="" class="wp-image-72"/>',
+    'url' => 'http://localhost:8000/wp-content/uploads/2023/06/shop_sample.png',
+    'title' => '',
+  ),
+)
+07-06-2023 21:44:05 [localhost][info] An attachment (72) was found in the text of the post.
+07-06-2023 21:44:05 [localhost][info] Featured image (72) is set for post (71)
+07-06-2023 21:44:05 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:44:05 [localhost][warning] The post (71) has already been assigned a featured image
+-------------------------------
+07-06-2023 21:44:06 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:44:06 [localhost][warning] The post (71) has already been assigned a featured image
+-------------------------------
+07-06-2023 21:46:40 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:46:40 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:46:40 [localhost][warning] The post (71) has already been assigned a featured image
+-------------------------------
+07-06-2023 21:46:40 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:46:40 [localhost][warning] The post (71) has already been assigned a featured image
+-------------------------------
+07-06-2023 21:54:22 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:54:22 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:54:22 [localhost][warning] The post (71) has already been assigned a featured image
+-------------------------------
+07-06-2023 21:54:22 [localhost][warning] The post (71) has already been assigned a featured image
+07-06-2023 21:54:22 [localhost][warning] The post (71) has already been assigned a featured image
+-------------------------------
+20-06-2023 12:34:08 [localhost][debug] Found images: array (
+)
+-------------------------------
+20-06-2023 12:34:35 [localhost][debug] Found images: array (
+)
+20-06-2023 12:34:35 [localhost][debug] Found images: array (
+)
+20-06-2023 12:34:35 [localhost][warning] The post (77) has already been assigned a featured image
+-------------------------------
+20-06-2023 12:34:35 [localhost][warning] The post (77) has already been assigned a featured image
+20-06-2023 12:34:35 [localhost][warning] The post (77) has already been assigned a featured image
+-------------------------------
+21-06-2023 10:38:09 [localhost][warning] The post type (acf-field-group) is not allowed for generation in settings
+-------------------------------
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][debug] Found images: array (
+)
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field-group) is not allowed for generation in settings
+21-06-2023 10:53:36 [localhost][warning] The post type (acf-field-group) is not allowed for generation in settings
+-------------------------------
+21-06-2023 10:56:11 [localhost][info] Posts query: array (
+  'has_thumb' => false,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+21-06-2023 10:56:11 [localhost][info] Posts query: array (
+  'has_thumb' => true,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+-------------------------------
+21-06-2023 10:56:12 [localhost][info] Posts query: array (
+  'has_thumb' => false,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+21-06-2023 10:56:12 [localhost][info] Posts query: array (
+  'has_thumb' => true,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+-------------------------------
+21-06-2023 11:17:37 [localhost][debug] Found images: array (
+)
+-------------------------------
+21-06-2023 11:17:46 [localhost][debug] Found images: array (
+)
+21-06-2023 11:17:46 [localhost][debug] Found images: array (
+)
+21-06-2023 11:17:46 [localhost][debug] Found images: array (
+)
+-------------------------------
+21-06-2023 11:17:46 [localhost][debug] Found images: array (
+)
+21-06-2023 11:17:46 [localhost][debug] Found images: array (
+)
+-------------------------------
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 11:18:05 [localhost][debug] Found images: array (
+)
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field-group) is not allowed for generation in settings
+21-06-2023 11:18:05 [localhost][warning] The post type (acf-field-group) is not allowed for generation in settings
+-------------------------------
+21-06-2023 11:26:39 [localhost][warning] The post (77) has already been assigned a featured image
+-------------------------------
+21-06-2023 11:37:35 [localhost][debug] Found images: array (
+)
+21-06-2023 11:37:35 [localhost][debug] Found images: array (
+)
+21-06-2023 11:37:35 [localhost][warning] The post type (acf-field) is not allowed for generation in settings
+21-06-2023 11:37:35 [localhost][debug] Found images: array (
+)
+21-06-2023 11:37:35 [localhost][warning] The post type (acf-field-group) is not allowed for generation in settings
+21-06-2023 11:37:35 [localhost][warning] The post type (acf-field-group) is not allowed for generation in settings
+-------------------------------
+21-06-2023 11:40:17 [localhost][debug] Found images: array (
+)
+21-06-2023 11:40:17 [localhost][debug] Found images: array (
+)
+21-06-2023 11:40:17 [localhost][debug] Found images: array (
+)
+-------------------------------
+21-06-2023 11:40:17 [localhost][debug] Found images: array (
+)
+21-06-2023 11:40:17 [localhost][debug] Found images: array (
+)
+-------------------------------
+21-06-2023 17:16:06 [localhost][debug] Found images: array (
+)
+21-06-2023 17:16:06 [localhost][debug] Found images: array (
+)
+21-06-2023 17:16:06 [localhost][debug] Found images: array (
+)
+-------------------------------
+21-06-2023 17:16:06 [localhost][debug] Found images: array (
+)
+21-06-2023 17:16:06 [localhost][debug] Found images: array (
+)
+-------------------------------
+23-06-2023 16:06:16 [localhost][debug] Found images: array (
+)
+-------------------------------
+23-06-2023 16:07:18 [localhost][debug] Found images: array (
+)
+23-06-2023 16:07:18 [localhost][debug] Found images: array (
+)
+23-06-2023 16:07:18 [localhost][debug] Found images: array (
+)
+-------------------------------
+23-06-2023 16:07:18 [localhost][debug] Found images: array (
+)
+23-06-2023 16:07:18 [localhost][debug] Found images: array (
+)
+-------------------------------
+23-06-2023 16:20:42 [localhost][debug] Found images: array (
+)
+23-06-2023 16:20:42 [localhost][debug] Found images: array (
+)
+23-06-2023 16:20:42 [localhost][debug] Found images: array (
+)
+-------------------------------
+23-06-2023 16:34:50 [localhost][debug] Found images: array (
+)
+23-06-2023 16:34:50 [localhost][debug] Found images: array (
+)
+23-06-2023 16:34:50 [localhost][debug] Found images: array (
+)
+-------------------------------
