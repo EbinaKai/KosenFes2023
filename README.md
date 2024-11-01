@@ -1,5 +1,10 @@
 # KosenFes2023
 
+![WordPress](https://img.shields.io/badge/engine-WordPress-blue)
+![Uptime Robot status](https://img.shields.io/uptimerobot/status/m797951544-501d8f3265cf55078c8a8acd)
+
+[高専祭2023の公式ホームページ](https://fest-snct.jp/2023/) です。今年の高専祭のテーマは「宴」。ホームページも宴をイメージしたデザインとなっています。
+
 ## ページ構成
 
 | ページ | 説明 |
